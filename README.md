@@ -40,3 +40,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Create an Angular app in an existing folder without generating a duplicate folder
 1. Ensure your terminal folder is the folder in which is your app folder
 1. ng new myapp --directory=./
+
+## Lifecycle Hook
+A [Lifecycle Hook](https://angular.io/guide/glossary#lifecycle-hook) is an interface that allows you to tap into the lifecycle of [directives](https://angular.io/guide/glossary#directive) and [components](https://angular.io/guide/glossary#component) as they are created, updated, or destroyed.
+
+For example, having an ngOnInit() in a component is a good place to put initialization logic.
