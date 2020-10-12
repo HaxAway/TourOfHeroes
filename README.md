@@ -1,4 +1,4 @@
-# TourOfHeroes
+# Tour Of Heroes
 
 ![GitHub Logo](/images/wwii_dday.jpg)
 
