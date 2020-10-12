@@ -30,6 +30,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Create an Angular app in an existing folder without generating a duplicate folder
+1. Ensure your terminal folder is the folder in which is your app folder
+1. ng new myapp --directory=./
