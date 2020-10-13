@@ -37,9 +37,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ----
 
 # Angular Info
-### Create an Angular app in an existing folder without generating a duplicate folder
+## Common CLI
+**New Angular Application**: Create an Angular app in an existing folder without generating a duplicate folder
 1. Ensure your terminal folder is the folder in which is your app folder
 1. ng new myapp --directory=./
+
+**Running and Opening Local Host**: To build and serve your application:
+1. <ins>ng server --open</ins>: Build and open app in the default web browser
+1. <ins>npm run my-config</ins>: If you want to run on a specific port, then add the following command in the package.json file prior to running.
+2. "my-config": "ng serve --open --port ####"
 
 ## Lifecycle Hook
 A [Lifecycle Hook](https://angular.io/guide/glossary#lifecycle-hook) is an interface that allows you to tap into the lifecycle of [directives](https://angular.io/guide/glossary#directive) and [components](https://angular.io/guide/glossary#component) as they are created, updated, or destroyed.
